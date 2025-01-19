@@ -27,13 +27,25 @@
 
     </div>
 
+    <div>
+    <iframe class="info" src="text.txt" width="80%" height="400px">
 
+    </iframe>
+    </div>
 
 </div>
 
     <script>
 
-
+        $("#vanilla").click(function(){
+            $(".info").attr("src","category_01/vanilla/vanilla.txt");    
+        });
+        $("#chocolate").click(function(){
+            $(".info").attr("src","category_01/chocolate/chocolate.txt");    
+        });
+        $("#strawberry").click(function(){
+            $(".info").attr("src","category_01/strawberry/strawberry.txt");    
+        });
         
     </script>
 </body>
