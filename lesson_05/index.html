@@ -23,6 +23,18 @@
             <p><input type="submit" value="Chocolate" id="chocolate"></p>
             <p><input type="submit" value="Strawberry" id="strawberry"></p>
         </div>
+        <div class="category" id="category2">
+            <p>Icecream</p>
+            <p><input type="submit" value="Pure" id="pure"></p>
+            <p><input type="submit" value="Sugar" id="sugar"></p>
+            <p><input type="submit" value="Syrup" id="syrup"></p>
+        </div>
+        <div class="category" id="category3">
+            <p>Icecream</p>
+            <p><input type="submit" value="Coffee" id="coffee"></p>
+            <p><input type="submit" value="Fruit" id="fruit"></p>
+            <p><input type="submit" value="Tea" id="tea"></p>
+        </div>
 
 
     </div>
@@ -45,6 +57,26 @@
         });
         $("#strawberry").click(function(){
             $(".info").attr("src","category_01/strawberry/strawberry.txt");    
+        });
+
+        $("#pure").click(function(){
+            $(".info").attr("src","category_2/pure/pure.txt");    
+        });
+        $("#sugar").click(function(){
+            $(".info").attr("src","category_2/sugar/sugar.txt");    
+        });
+        $("#syrup").click(function(){
+            $(".info").attr("src","category_2/syrup/syrup.txt");    
+        });
+
+        $("#coffee").click(function(){
+            $(".info").attr("src","category_3/coffee/coffee.txt");    
+        });
+        $("#fruit").click(function(){
+            $(".info").attr("src","category_3/fruit/fruit.txt");    
+        });
+        $("#tea").click(function(){
+            $(".info").attr("src","category_3/tea/tea.txt");    
         });
         
     </script>
